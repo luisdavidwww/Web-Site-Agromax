@@ -65,6 +65,13 @@
   background-repeat: no-repeat;
   color: #fff;
   background-blend-mode: darken;
+  background-image: url('./images/img-66.jpg');
+  background-color: rgba(0,0,0,0.4);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  background-blend-mode: darken;
 }
 
 .financing-banner {
@@ -73,7 +80,7 @@
   background-position: center;
   background-size: cover;
   background-blend-mode: darken;
-  height: 85vh;
+  height: 90vh;
   width: 100%;
   font-family: 'PT Sans', sans-serif;
 }
