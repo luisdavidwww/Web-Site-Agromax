@@ -8,14 +8,12 @@ export default function Financing() {
 
   return (
     <>
-      <div className='financing'>
+      <div className='financing-banner'>
         <div className='financing-main'>
           <h1>Financia con Nosotros</h1>
         </div>
       </div> 
-      <div className='f-container'>
         <Cards />
-      </div>
       
     </>
   );
