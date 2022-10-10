@@ -1,0 +1,265 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.home,
+.financing,
+.products,
+.contact-us,
+.sign-up,
+.venta,
+.consulta {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  font-family: 'PT Sans', sans-serif;
+}
+
+
+
+
+
+/*----------------------------- HOME ----------------------------*/
+
+.home {
+  background-image: url('./images/img-11.jpg');
+  background-color: rgba(0,0,0,0.4);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+  background-blend-mode: darken;
+}
+.home-banner {
+  background-image: url('./images/img-11.jpg');
+  background-color: rgba(0,0,0,0.4);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+  background-blend-mode: darken;
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: 'PT Sans', sans-serif;
+}
+
+
+
+
+
+/*----------------------------- FINANCIAMIENTO ----------------------------*/
+
+.financing {
+  background-image: url('./images/img-66.jpg');
+  background-color: rgba(0,0,0,0.4);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  background-blend-mode: darken;
+}
+
+.financing-banner {
+  background-image: url('./images/img-66.jpg');
+  background-color: rgba(0,0,0,0.3);
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+  height: 45vh;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.financing-main {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.financing-main > h1 {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 80px;
+}
+
+.f-container {
+  background-color: #fff;
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'PT Sans', sans-serif;
+}
+
+
+
+
+
+/*----------------------------- PRODUCTOS ----------------------------*/
+
+.products {
+  background-image: url('./images/img-44.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.products-banner {
+  background-image: url('./images/img-44.jpg');
+  background-color: rgba(0,0,0,0.3);
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+  height: 45vh;
+  font-family: 'PT Sans', sans-serif;
+}
+
+
+
+
+/*----------------------------- CONTÁCTANOS ----------------------------*/
+
+.contact-us {
+  background-image: url('./images/img-55.jpg');
+  background-color: rgba(0,0,0,0.1);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+  background-blend-mode: darken;
+}
+
+
+
+/*----------------------------- iNICIAR SESIÓN ----------------------------*/
+
+.sign-up {
+  background-color: rgb(255, 255, 255);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+
+
+/*----------------------------- VENTA ----------------------------*/
+
+.venta {
+  background-color: rgb(255, 255, 255);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+
+
+/*----------------------------- CONSULTA ----------------------------*/
+.consulta {
+  background-image: rgb(255, 255, 255);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+
+
+
+
+
+
+
+/*----------------------------- PAGINA EN CONSTRUCCIÓN ----------------------------*/
+
+.img-Logo
+{
+  max-width: 100%;
+	height: auto; 
+
+}
+
+
+.home-img-wrapper {
+  max-width: 350px;
+  align-items: center;
+}
+
+.home-img {
+  max-width: 100%;
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 10px;
+  padding-right: 0;
+}
+
+.home-img-wrapper{
+  max-width: 300px;
+}
+
+.home-message {
+  display: block;
+  text-align: center;
+  justify-content: center;
+  font-size: 0.4em;
+  margin-bottom: -2rem;
+  max-width: 600px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 960px) {
+
+  h1 {
+    font-size: 60px;
+  }
+  
+}
+
+@media screen and (max-width: 768px) {
+
+  .financing-main > h1 {
+    font-size: 50px;
+  }
+
+}
+
+
+
+
+
+
+
