@@ -24,7 +24,7 @@ export default function Location() {
             </h1>
             <div className='sede-text'>
                 <p>
-                  Aqui va la dirección y una pequeña descripción de la sede numero 1
+                  Aqui va la dirección y una pequeña descripción de la sede número 1
                 </p>
             </div>
           </div>
@@ -47,7 +47,7 @@ export default function Location() {
             </h1>
             <div className='sede-text'>
                 <p>
-                    Aqui va la dirección y una pequeña descripción de la sede numero 2
+                    Aqui va la dirección y una pequeña descripción de la sede número 2
                 </p>
             </div> 
           </div>

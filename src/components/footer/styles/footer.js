@@ -54,6 +54,7 @@ export const Link = styled.a`
   font-family: 'PT Sans', sans-serif;
   font-family: 'Roboto';
   cursor: pointer;
+  letter-spacing: 0.7px;
 
   &:hover {
       color: #c5cf2f;
@@ -88,7 +89,7 @@ export const Title = styled.p`
   font-size: 18px;
   letter-spacing: 0.8px;
   color: #fff;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   font-weight: bold;
   font-family: 'PT Sans', sans-serif;
 

@@ -42,20 +42,31 @@
   display: flex;
   align-items: center;
   height: 80px;
+  border-color: #ef3e33;
 }
+
 
 .nav-links {
   color: white;
   text-decoration: none;
   padding: 0.5rem 1rem;
+  border-bottom: 4px solid transparent;
 }
 
-.nav-links:hover {
+.nav-links_active {
   /* background-color: #C5CF2F;*/
-  border-bottom: 3px solid #C5CF2F;
+  border-bottom: 4px solid #C5CF2F;
   border-radius: 0px;
   transition: all 0.2s ease-out;
 }
+
+.nav-links:hover {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-bottom: 4px solid #C5CF2F;
+}
+
 
 .fa-bars {
   color: #fff;
@@ -107,6 +118,7 @@
     padding: 2rem;
     width: 100%;
     display: table;
+    border-bottom: 3px solid transparent;
   }
 
   .nav-links:hover {

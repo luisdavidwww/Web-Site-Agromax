@@ -1,6 +1,6 @@
 import React, { useState, useEffect  } from 'react';
 //import { Button } from './Button';
-//import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './Navbar.css';
 //import Dropdown from './Dropdown';
 import  AgroMax   from "../images/icon/agromax2.png";
@@ -11,7 +11,6 @@ import  AgroMax   from "../images/icon/agromax2.png";
 function Navbar() {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
-  //const [dropdown, setDropdown] = useState(false);
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
@@ -36,29 +35,6 @@ function Navbar() {
   
   window.addEventListener('resize',  refreshPage);
 
-
-/* 
-
-  const onMouseEnter = () => {
-    if (window.innerWidth < 960) {
-      setDropdown(false);
-    } else {
-      setDropdown(true);
-    }
-  };
-
-  const onMouseLeave = () => {
-    if (window.innerWidth < 960) {
-      setDropdown(false);
-    } else {
-      setDropdown(false);
-    }
-  };
-
-*/
-
-
-
   return (
     <>
       <nav className='navbar'>
@@ -73,55 +49,45 @@ function Navbar() {
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
 
           <li className='nav-item'>
-            <a href='/' className='nav-links' onClick={closeMobileMenu}>
-              Inicio
-            </a>
-          </li>
-
-          {/* 
-          <li
-            className='nav-item'
-            onMouseEnter={onMouseEnter}
-            onMouseLeave={onMouseLeave}
-          >
-            <Link
-              to='/services'
-              className='nav-links'
+            <NavLink
+              exact to="/"
+              className= 'nav-links'
+              activeClassName='nav-links_active'
               onClick={closeMobileMenu}
             >
-              Financiamiento <i className='fas fa-caret-down' />
-            </Link>
-            {dropdown && <Dropdown />}
+              Inicio
+            </NavLink>
           </li>
-          */}
 
           <li className='nav-item'>
-            <a
-              href="/financing"
-              className='nav-links'
+            <NavLink
+              to="/financing"
+              className= 'nav-links'
+              activeClassName='nav-links_active'
               onClick={closeMobileMenu}
             >
               Financiamiento
-            </a>
+            </NavLink>
           </li>
-          
           <li className='nav-item'>
-            <a
-              href='/products'
-              className='nav-links'
+            <NavLink
+              to='/products'
+              className= 'nav-links'
+              activeClassName='nav-links_active'
               onClick={closeMobileMenu}
             >
               Productos
-            </a>
+            </NavLink>
           </li>
           <li className='nav-item'>
-            <a
-              href='/contact-us'
-              className='nav-links'
+          <NavLink
+              to="/contact-us"
+              className= 'nav-links'
+              activeClassName='nav-links_active'
               onClick={closeMobileMenu}
             >
-              Contacto
-            </a>
+            Contacto
+          </NavLink>   
           </li>
           
         </ul>

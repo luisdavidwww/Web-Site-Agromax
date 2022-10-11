@@ -1,17 +1,18 @@
-import React from 'react';
+import React , { useEffect } from 'react';
 import Navbar from './components/Navbar';
 import './App.css';
 import Home from './components/pages/Home';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, useLocation } from 'react-router-dom';
 import Financing from './components/pages/Financing';
 import Products from './components/pages/Products';
 import ContactUs from './components/pages/ContactUs';
 import SignUp from './components/pages/SignUp';
 import Venta from './components/pages/Venta';
 import Consulta from './components/pages/Consulta';
-import Footer from './components/containers/FooterF'
+//import Footer from './components/containers/FooterF'
 import { FooterContainer } from './components/containers/footer'
 import Top_header from "./components/containers/Top_header";
+
 
 function App() {
   return (
