@@ -73,13 +73,13 @@ export const Linkbtn = styled.a`
   border-radius: 2px;
   text-decoration-line: none;
   outline: none;
-  border: 2px solid  #fff;
   cursor: pointer;
   font-family: 'PT Sans', sans-serif;
+  letter-spacing: 0.6px;
 
   &:hover {
       color: #fff;
-      background-color: #c5cf2f;
+      background-color: #a8b402;
       transition: 200ms ease-in;
   }
 `;

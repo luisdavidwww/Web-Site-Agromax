@@ -12,20 +12,17 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
               src='images/img-11.jpg'
-              text='Plan Básico'
-              label='Mystery'
+              text='Plan Básico'  
               path='/'
             />
             <CardItem
               src='../images/img-11.jpg'
               text='Plan Médio'
-              label='Adventure'
               path='/products'
             />
             <CardItem
               src='../images/img-11.jpg'
-              text='Plan Crack'
-              label='Adrenaline'
+              text='Plan Crack'    
               path='/sign-up'
             />
           </ul>

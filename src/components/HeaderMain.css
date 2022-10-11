@@ -52,6 +52,7 @@
     cursor: pointer;
     margin: 10px;
     font-family: 'PT Sans', sans-serif;
+    letter-spacing: 0.4px;
     
 }
 
@@ -69,6 +70,7 @@
     cursor: pointer;
     margin: 10px; 
     font-family: 'PT Sans', sans-serif;
+    letter-spacing: 0.4px;
 }
 
 
@@ -129,8 +131,13 @@
   
 .btn-outline:hover, .btn-main:hover {
   transition: all 0.3s ease-out;
-  background: rgb(69, 129, 47);
-  border: 2px solid rgb(69, 129, 47) ;
-  color: #fff;
+  /*{ #C5CF2F }*/
+  /*
+  {background: rgb(69, 129, 47);
+  border: 2px solid rgb(69, 129, 47) ;}
+  */
+  background:#a8b402;
+  color: rgb(255, 255, 255);
+  border: 2px solid #a8b402;
   transition: 250ms;
 }

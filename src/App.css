@@ -153,6 +153,18 @@
   background-blend-mode: darken;
 }
 
+.contact-container {
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'PT Sans', sans-serif;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 
 
 /*----------------------------- iNICIAR SESIÓN ----------------------------*/
