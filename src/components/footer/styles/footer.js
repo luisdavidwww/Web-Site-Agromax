@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   padding: 80px 60px;
-  background: linear-gradient(-45deg, rgb(66, 66, 66) 0%, rgb(66, 66, 66)  100%);
+  background: linear-gradient(-45deg, rgb(40, 40, 40) 0%, rgb(40, 40, 40)  100%);
   
 
 
@@ -48,7 +48,7 @@ export const Row = styled.div`
 
 export const Link = styled.a`
   color: #fff;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   font-size: 14px;
   text-decoration: none;
   font-family: 'PT Sans', sans-serif;
@@ -61,11 +61,34 @@ export const Link = styled.a`
   }
 `;
 
+export const Linkbtn = styled.a`
+
+  display: inline-block;
+  margin-top: -20px;
+  width: 140px;
+  padding: 12px 26px;
+  background-color: #fff;
+  color: black;
+  font-size: 15px;
+  border-radius: 2px;
+  text-decoration-line: none;
+  outline: none;
+  border: 2px solid  #fff;
+  cursor: pointer;
+  font-family: 'PT Sans', sans-serif;
+
+  &:hover {
+      color: #fff;
+      background-color: #c5cf2f;
+      transition: 200ms ease-in;
+  }
+`;
+
 export const Title = styled.p`
-  font-size: 17px;
-  letter-spacing: 0.7px;
+  font-size: 18px;
+  letter-spacing: 0.8px;
   color: #fff;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   font-weight: bold;
   font-family: 'PT Sans', sans-serif;
 

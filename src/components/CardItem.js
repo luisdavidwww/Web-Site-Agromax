@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import a from '../images/card-01.jpg';
+import a from '../images/img-11.jpg';
 
 function CardItem(props) {
   return (
@@ -11,11 +11,12 @@ function CardItem(props) {
             <img
               className='cards__item__img'
               alt='Travel Image'
-              src={'../' + props.src}
+              /*{ src={'../' + props.src} }*/
+              src={ a }
             />
           </figure>
           <div className='cards__item__info'>
-            <h5 className='cards__item__text'>{props.text}</h5>
+            <h5 className='cards__item__text'>{ props.text}</h5>
           </div>
         </Link>
       </li>

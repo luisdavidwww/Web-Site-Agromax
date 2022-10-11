@@ -3,15 +3,18 @@
   background: #fff;
 }
 
-h1 {
+.titulo-2 {
   text-align: center;
+  color: black;
+  font-size: 3rem;
+  font-family: 'PT Sans', sans-serif;
 }
 
 .cards__container {
   display: flex;
   flex-flow: column;
   align-items: center;
-  max-width: 1120px;
+  max-width: 1500px;
   width: 90%;
   margin: 0 auto;
 }
@@ -30,6 +33,7 @@ h1 {
   flex: 1;
   margin: 0 1rem;
   border-radius: 10px;
+  width: 300px;
 }
 
 .cards__item__link {
@@ -97,6 +101,7 @@ h1 {
   color: #252e48;
   font-size: 18px;
   line-height: 24px;
+  font-family: 'PT Sans', sans-serif;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -114,5 +119,6 @@ h1 {
 @media only screen and (max-width: 1024px) {
   .cards__item {
     margin-bottom: 2rem;
+    width: 300px;
   }
 }

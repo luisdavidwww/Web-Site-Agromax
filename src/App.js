@@ -9,7 +9,7 @@ import ContactUs from './components/pages/ContactUs';
 import SignUp from './components/pages/SignUp';
 import Venta from './components/pages/Venta';
 import Consulta from './components/pages/Consulta';
-//import Footer from './components/containers/FooterF'
+import Footer from './components/containers/FooterF'
 import { FooterContainer } from './components/containers/footer'
 
 function App() {

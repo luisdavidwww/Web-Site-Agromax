@@ -6,25 +6,25 @@ import a from '../images/card-01.jpg';
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Check out these EPIC Destinations!</h1>
+      <h1 className='titulo-2' > ¡Planes Disponibles!</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/card-01.jpg'
+              src='images/img-11.jpg'
               text='Plan Básico'
               label='Mystery'
               path='/'
             />
             <CardItem
-              src='images/card-02.jpg'
+              src='../images/img-11.jpg'
               text='Plan Médio'
               label='Adventure'
               path='/products'
             />
             <CardItem
-              src='images/card-03.jpg'
-              text='Plan crack'
+              src='../images/img-11.jpg'
+              text='Plan Crack'
               label='Adrenaline'
               path='/sign-up'
             />

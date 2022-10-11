@@ -7,24 +7,6 @@ function Footer() {
   return (
     <>
     <div className='footer-container'>
-      <section className='footer-subscription'>
-        <p className='footer-subscription-heading'>
-            Solicita tu algo para nosotros
-        </p>
-        <p className='footer-subscription-text'>
-          Mantén la comunicación con nosotros
-        </p>
-        <div className='input-areas'>
-          <form>
-            <input
-              className='footer-input'
-              name='email'
-              type='email'
-              placeholder='Your Email'
-            />
-          </form>
-        </div>
-      </section>
       <div class='footer-links'>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>

@@ -129,8 +129,8 @@
   
 .btn-outline:hover, .btn-main:hover {
   transition: all 0.3s ease-out;
-  background: #C5CF2F;
-  border: 2px solid #C5CF2F;
+  background: rgb(69, 129, 47);
+  border: 2px solid rgb(69, 129, 47) ;
   color: #fff;
   transition: 250ms;
 }
