@@ -31,7 +31,7 @@ export function FooterContainer() {
 
                 <Footer.Column>
                     
-                <Footer.Title>Contáctanos</Footer.Title>
+                <Footer.Title>Contacto</Footer.Title>
                     <Footer.Row>
                         <Footer.Link > Nuestras Sedes </Footer.Link>
                         

@@ -7,12 +7,11 @@ export default function Products() {
 
   return (
     <>
-      <div className='products-banner'>
-        <div className='financing-main'>
-          <h1>Nuestros Productos</h1>
+      <div className='contact-us'>
+        <div className='home-img-wrapper'>
+          <p className='home-message'>Página en Construcción...</p>
+          <img src={ Logo } alt="AgroMax" className='home-img' />
         </div>
-      </div> 
-      <div className='f-container'>
       </div>
     </>
   );

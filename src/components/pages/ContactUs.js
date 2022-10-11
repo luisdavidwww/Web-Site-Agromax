@@ -5,11 +5,12 @@ import Logo from '../../images/icon/am01.png';
 export default function ContactUs() {
   return (
     <>
-      <div className='contact-us'>
-        <div className='home-img-wrapper'>
-          <p className='home-message'>Página en Construcción...</p>
-          <img src={ Logo } alt="AgroMax" className='home-img' />
+      <div className='products-banner'>
+        <div className='financing-main'>
+          <h1>Nuestras Sedes</h1>
         </div>
+      </div> 
+      <div className='f-container'>
       </div>
     </>
   );

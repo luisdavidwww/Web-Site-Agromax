@@ -11,11 +11,13 @@ import Venta from './components/pages/Venta';
 import Consulta from './components/pages/Consulta';
 import Footer from './components/containers/FooterF'
 import { FooterContainer } from './components/containers/footer'
+import Top_header from "./components/containers/Top_header";
 
 function App() {
   return (
     <>
     <Router>
+      <Top_header/>
       <Navbar/>
       <Switch>
         <Route path='/' exact component={Home} />

@@ -120,7 +120,7 @@ function Navbar() {
               className='nav-links'
               onClick={closeMobileMenu}
             >
-              Contáctanos
+              Contacto
             </a>
           </li>
           
