@@ -6,11 +6,6 @@ import Logo from '../../assets/Logo';
 
 export default  function Copyright() {
 
-    const [click, setClick] = useState(false);
-    //const handleClick = () => setClick(!click);
-    const closeMobileMenu = () => setClick(false);
-
-
   return (
     <>
         <div className='Container-Copy'>
@@ -18,7 +13,7 @@ export default  function Copyright() {
                 <div className='content'>
                     <span>Copyright 2022 - Agromax Corporation</span>
                 </div>
-                <Link to='/' className='Logo' onClick={closeMobileMenu}>
+                <Link to='/' className='Logo'>
                     <Logo />
                 </Link>
             </div>            

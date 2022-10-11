@@ -1,7 +1,6 @@
 import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
-import a from '../images/card-01.jpg';
 
 function Cards() {
   return (
@@ -13,17 +12,17 @@ function Cards() {
             <CardItem
               src='images/img-11.jpg'
               text='Plan Básico'  
-              path='/'
+              path=''
             />
             <CardItem
               src='../images/img-11.jpg'
               text='Plan Médio'
-              path='/products'
+              path=''
             />
             <CardItem
               src='../images/img-11.jpg'
               text='Plan Crack'    
-              path='/sign-up'
+              path=''
             />
           </ul>
         </div>

@@ -1,6 +1,5 @@
 import React from 'react'
 import Footer from '../../components/footer'
-import Icon from '../../components/icons'
 import Copyright from '../containers/Copyright'
 import { Link } from 'react-router-dom';
 import './Footer.css';

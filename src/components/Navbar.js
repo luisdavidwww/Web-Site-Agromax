@@ -58,7 +58,7 @@ function Navbar() {
               Inicio
             </NavLink>
           </li>
-
+          
           <li className='nav-item'>
             <NavLink
               to="/financing"

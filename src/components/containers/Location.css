@@ -67,6 +67,7 @@
     align-items: center;
     color: black;
     margin-top: 10px;
+    font-size: 35px;
   }
   
   .sede-text{
@@ -121,12 +122,14 @@
       }
       .sede-title{
         text-align: center;
+        font-size: 25px;
         color: black;
         margin-top: 20px;
       }
 
       .sede-text{
         text-align: center;
+        font-size: 16px;
         color: black;
         margin-top: 20px;
       }

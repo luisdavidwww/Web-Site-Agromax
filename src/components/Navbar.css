@@ -123,6 +123,7 @@
 
   .nav-links:hover {
     background-color: #C5CF2F;
+    padding: 2rem;
     color: #0C572F;
     border-radius: 0;
   }
