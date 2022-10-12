@@ -1,5 +1,6 @@
 import React from 'react';
 import HeaderMain from '../HeaderMain';
+import BodyHome from '../../components/containers/BodyHome';
 import { useLocation } from 'react-router-dom';
 
 export default function Home() {
@@ -13,7 +14,8 @@ export default function Home() {
 
   return (
     <>  
-      <HeaderMain />
+      <HeaderMain/>
+      <BodyHome/>
     </>
   );
 }
