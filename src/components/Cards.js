@@ -5,24 +5,25 @@ import CardItem from './CardItem';
 function Cards() {
   return (
     <div className='cards'>
-      <h1 className='titulo-2' > ¡Planes Disponibles!</h1>
+      <h1 className='titulo-2' > Financiamos tu Proyecto </h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
               src='images/img-11.jpg'
-              text='Plan Básico'  
-              path=''
+              text='Inicia tu proyecto'
+              path='/#' 
+              /*path=''*/
             />
             <CardItem
               src='../images/img-11.jpg'
-              text='Plan Médio'
-              path=''
+              text='Garantía en tu inversión'
+              path='/#'
             />
             <CardItem
               src='../images/img-11.jpg'
-              text='Plan Crack'    
-              path=''
+              text='Contribución sustentable'
+              path='/#'  
             />
           </ul>
         </div>

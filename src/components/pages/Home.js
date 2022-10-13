@@ -1,6 +1,7 @@
 import React from 'react';
 import HeaderMain from '../HeaderMain';
 import BodyHome from '../../components/containers/BodyHome';
+import CorporatePhilosophy from '../../components/containers/CorporatePhilosophy';
 import { useLocation } from 'react-router-dom';
 
 export default function Home() {

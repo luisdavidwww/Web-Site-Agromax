@@ -1,68 +1,66 @@
-
-  .contact-container {
+.corp-container {
     background-color: #fff;
     width: 100%;
-    display: flex;
-    flex-direction: column;
+    display: row;
     justify-content: center;
     align-items: center;
     font-family: 'PT Sans', sans-serif;
     margin-top: 50px;
     margin-bottom: 70px;
   }
-  
-  
-  .sede-container {
-    display: row;
+
+  .corp-container {
+    display: flex;
     align-items: center;
-    max-width: 1500px;
-    width: 70%;
+    justify-content: center;
+    width:60px;
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 15px;
   }
   
-  .sede-wrap {
-    position: relative;
-    display: inline-block;
+  .corp-wrap {
+    display: flex;
     flex-direction: column;
-    width: 50%;
-    height: 45%;
-    padding-top: 35%;
+    width:60px;
+    padding-top: 15%;
+    padding-bottom: 15%;
     overflow: hidden;
+    transition: all 0.3s linear;
   }
-  
-  .sede-img {
+
+  .corp-img {
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
     display: block;
-    width: 100%;
-    height: 100%;
+    width: 20%;
     object-fit: cover;
     border-radius: 7px;
-    transition: all 0.2s linear;
+    transition: all 0.5s linear;
   }
 
-  .sede-img:hover {
-    transform: scale(1.1);
+  .corp-wrap:hover {
+    transform: scale(1.05);
   }
 
 
-  .sede-wrap-Info {
+  .corp-wrap-Info {
     position: absolute;
     display: inline-block;
     flex-direction: column;
     overflow: hidden;
+    width: 30%;
+    max-width: 600px;
     margin-left: 50px;
     text-align: center;
     justify-content: center;
     align-content: center;
   }
   
-  .sede-title{
+  .corp-title{
     text-align: start;
     align-items: center;
     color: #0C572F;
@@ -70,69 +68,68 @@
     font-size: 35px;
   }
   
-  .sede-text{
+  .corp-text{
     text-align: start;
-    color: rgb(56, 56, 56);
+    text-justify: distribute;
+    color: rgb(46, 46, 46);
     font-family: 'Roboto';
     margin-top: 20px;
     letter-spacing: 0.2px;
+
   }
   
   @media screen and (max-width: 960px) {
 
-    .sede-container {
+    .corp-container {
         display: row;
         width: 80%;
         margin-top: 15px;
         margin-bottom: 150px;
     }
 
-    .sede-wrap{
+    .corp-wrap{
         display: block;
         justify-content: center;
         align-items: center;
         padding-top: 70%;
         width: 100%;
+        transition: all 0.3s linear;
     }
 
 
-    .sede-img {
+    .corp-img {
         position: absolute;
         top: 0;
         right: 0;
         bottom: 0;
         left: 0;
         display: block;
-        width: 100%;
-        height: 100%;
         object-fit: cover;
         border-radius: 7px;
         transition: all 0.2s linear;
       }
 
-    .sede-wrap-Info {
+    .corp-wrap-Info {
         position: absolute;
         width: 80%;
-        display: inline-block;
-        flex-direction: column;
+        display: block;
         justify-content: center;
         align-items: center;
         margin-left: 0px;
 
       }
-      .sede-title{
+      .corp-title{
         text-align: center;
-        font-size: 35px;
+        font-size: 30px;
         color: #0C572F;
         margin-top: 20px;
       }
 
-      .sede-text{
+      .corp-text{
         text-align: center;
         font-size: 16px;
         color: rgb(46, 46, 46);
-        margin-top: 20px;
-        letter-spacing: 0.2px;
+        margin-top: 15px;
       }
   
 }

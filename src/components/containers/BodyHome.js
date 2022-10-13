@@ -23,8 +23,8 @@ function BodyHome()  {
               </h1>
               <div className='us-text'>
                   <p>
-                    Somos una compañía que ventde muchos productos y producticos de alta calidad para el productor venezolano y 
-                    para todo el que quiera mi bro. A veces bien a veces mal, pa lante a paso de vencedores!. Camarada.
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
+                    Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum.
                   </p>
               </div>
             </div>

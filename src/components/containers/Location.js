@@ -40,8 +40,7 @@ export default function Location() {
             </figure>   
           </div>
           <div className='sede-wrap-Info'>
-            <h1 className='sede-title' 
-                style={{ fontSize: '35px'}}> 
+            <h1 className='sede-title'> 
                 Sede Numero Dos
             </h1>
             <div className='sede-text'>

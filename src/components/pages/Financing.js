@@ -20,7 +20,6 @@ export default function Financing() {
         </div>
       </div> 
         <Cards />
-      
     </>
   );
 }

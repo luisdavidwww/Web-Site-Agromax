@@ -1,13 +1,16 @@
 .cards {
   padding: 4rem;
   background: #fff;
+  padding-top: 3rem;
 }
 
 .titulo-2 {
   text-align: center;
-  color: black;
+  color: #0C572F;
   font-size: 3rem;
   font-family: 'PT Sans', sans-serif;
+  letter-spacing: 0.5px;
+  margin-top: 10px;
 }
 
 .cards__container {
@@ -90,15 +93,18 @@
 
 .cards__item__text {
   color: #252e48;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 24px;
   font-family: 'PT Sans', sans-serif;
+  text-align: center;
+  letter-spacing: 0.5px;
 }
 
 @media only screen and (min-width: 1200px) {
   .content__blog__container {
     width: 84%;
   }
+
 }
 
 @media only screen and (min-width: 1024px) {
@@ -111,5 +117,22 @@
   .cards__item {
     margin-bottom: 2rem;
     width: 300px;
+  }
+}
+@media screen and (max-width: 960px) {
+
+  .sede-container {
+      display: row;
+      width: 90%;
+      margin-top: 15px;
+      margin-bottom: 150px;
+  }
+
+  .titulo-2 {
+    text-align: center;
+    color: #0C572F;
+    font-size: 2.5rem;
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: 0.5px;
   }
 }

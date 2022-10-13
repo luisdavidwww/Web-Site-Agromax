@@ -16,7 +16,7 @@ export default function Products() {
     <>
       <div className='contact-us'>
         <div className='home-img-wrapper'>
-          <p className='home-message'>Página en Construcción...</p>
+          <p className='home-message'>Página en Actualización</p>
           <img src={ Logo } alt="AgroMax" className='home-img' />
         </div>
       </div>
