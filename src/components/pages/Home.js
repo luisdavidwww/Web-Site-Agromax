@@ -17,6 +17,7 @@ export default function Home() {
     <>  
       <HeaderMain/>
       <BodyHome/>
+      <CorporatePhilosophy/>
     </>
   );
 }

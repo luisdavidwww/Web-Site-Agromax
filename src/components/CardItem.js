@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import a from '../images/img-11.jpg';
+import IniciatuProyecto from '../images/IniciatuProyecto.jpg';
 
 function CardItem(props) {
   return (
