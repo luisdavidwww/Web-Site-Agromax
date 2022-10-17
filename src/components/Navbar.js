@@ -1,20 +1,25 @@
 import React, { useState, useEffect  } from 'react';
-//import { Button } from './Button';
 import { NavLink } from 'react-router-dom';
 import './Navbar.css';
-//import Dropdown from './Dropdown';
+import { useLocation } from 'react-router-dom';
 import  AgroMax   from "../images/icon/agromax2.png";
 
 
-
-
-function Navbar() {
+const Navbar = () => {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
+  //hook que utilizo para llevar el scroll a la parte superior en cada Router
+  let location = useLocation();
+  useEffect(() => {
+    window.scrollTo({ top: 0 });
+  }, [location]);
+
+
+  //metodo pra que aparezca el boton de opciones superior Responsive
   const showButton = () => {
     if (window.innerWidth <= 960) {
       setButton(false);
@@ -23,17 +28,23 @@ function Navbar() {
     }
   };
 
-  function refreshPage() {
+
+  /*Luis ponle comentario a tus metodos, porque eres tan idiota que colocas metodos en ingles, y 
+  como haces muchas coss note fijas bie, entoces pasan estas
+   cosas... por favor presta atencion te quiero mucho Att: Luis david del Futuro. 
+   RefreshPage es un metodo para refrescar la pagina, por eso se refre*/
+
+  /*function refreshPage() {
     window.location.reload(false);
   }
+  window.addEventListener('resize',  refreshPage);*/
 
+
+  //activación de metodos
   useEffect(() => {
     showButton();
   }, []);
 
-
-  
-  window.addEventListener('resize',  refreshPage);
 
   return (
     <>

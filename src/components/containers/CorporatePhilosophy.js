@@ -2,11 +2,11 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../containers/CorporatePhilosophy.css';
 import '../Cards.css';
-import Misión from '../../images/Misión.jpg';
-import Visión from '../../images/Visión.jpg';
-import PolíticaCorporativa from '../../images/PolíticaCorporativa.jpg';
+import Mision from '../../images/mision-1.jpg';
+import Vision from '../../images/vision-1.jpg';
+import PolíticaCorporativa from '../../images/politicacorporativa-1.jpg';
 
-function CorporatePhilosophy()  {
+const CorporatePhilosophy = () => {
   return (
     <>
       <div className='cards-home'>
@@ -20,14 +20,14 @@ function CorporatePhilosophy()  {
                 <figure className='cards__item__pic-wrap'>
                   <img
                     className='cards__item__img-home'
-                     alt='Travel Image'
-                     src={ Misión }
+                     alt='Misión'
+                     src={ Mision }
                   />
                 </figure>
                 <div className='cards__item__info'>
                   <h5 className='cards__item__text-home'>Misión</h5>
                   <p className='cards__item__p' > 
-                      Proveer productos agroindustriales que satisfagan las necesidades 
+                      Proveer productos agroindustriales que cubran las necesidades 
                       de nuestros clientes nacionales, mediante procesos sostenibles que 
                       contribuyan al desarrollo integral de la organización.
                   </p>
@@ -40,8 +40,8 @@ function CorporatePhilosophy()  {
                 <figure className='cards__item__pic-wrap'>
                   <img
                     className='cards__item__img-home'
-                     alt='Travel Image'
-                     src={ Visión }
+                     alt='Visión'
+                     src={ Vision }
                   />
                 </figure>
                 <div className='cards__item__info'>
@@ -60,7 +60,7 @@ function CorporatePhilosophy()  {
                 <figure className='cards__item__pic-wrap'>
                   <img
                     className='cards__item__img-home'
-                     alt='Travel Image'
+                     alt='Politica Corporativa'
                      src={ PolíticaCorporativa }
                   />
                 </figure>

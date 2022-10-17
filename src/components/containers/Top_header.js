@@ -5,10 +5,7 @@ import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import './Top_header.css';
 
-
-export default function Top_header() {
-
-
+const Top_header = () => {
   return (
     <>
         <div className='Top_header-Container-Copy'>
@@ -30,3 +27,5 @@ export default function Top_header() {
     </>
   )
 }
+
+export default Top_header;

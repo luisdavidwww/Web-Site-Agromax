@@ -4,7 +4,7 @@ import './Copyright.css';
 import Logo from '../../assets/Logo';
 
 
-export default  function Copyright() {
+const Copyright = () => {
 
   return (
     <>
@@ -22,3 +22,5 @@ export default  function Copyright() {
     </>
   )
 }
+
+export default Copyright;

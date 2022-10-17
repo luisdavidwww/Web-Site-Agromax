@@ -2,7 +2,9 @@ import React from 'react'
 import '../containers/BodyHome.css';
 import Sede01 from '../../images/nosotros.jpg';
 
-function BodyHome()  {
+
+
+const BodyHome = () => {
   return (
     <>
       <div className='body-container'>

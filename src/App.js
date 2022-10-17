@@ -10,7 +10,7 @@ import SignUp from './components/pages/SignUp';
 import Venta from './components/pages/Venta';
 import Consulta from './components/pages/Consulta';
 //import Footer from './components/containers/FooterF'
-import { FooterContainer } from './components/containers/footer'
+import  FooterContainer  from './components/containers/footer'
 import Top_header from "./components/containers/Top_header";
 
 
@@ -28,7 +28,15 @@ function App() {
         <Route path='/sign-up' component={SignUp} />
         <Route path='/venta' component={Venta} />
         <Route path='/consulta' component={Consulta} />
-        {/* <Route path="*" component={NotFound} />*/ }
+      
+        {/* <Route path='/' exact component={Home} />
+        <Route path='/financing' component={Financing} />
+        <Route path='/products' component={Products} />
+        <Route path='/contact-us' component={ContactUs} />
+        <Route path='/sign-up' component={SignUp} />
+        <Route path='/venta' component={Venta} />
+        <Route path='/consulta' component={Consulta} />*/ }
+
       </Switch>
       <FooterContainer/>
     </Router>

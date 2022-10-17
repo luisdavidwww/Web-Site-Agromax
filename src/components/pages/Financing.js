@@ -6,12 +6,6 @@ import { useLocation } from 'react-router-dom';
 
 export default function Financing() {
 
-  //Hook para colocar al Inicio
-  let location = useLocation();
-  React.useEffect(() => {
-    window.scrollTo({ top: 0 });
-  }, [location]);
-
   return (
     <>
       <div className='financing-banner'>

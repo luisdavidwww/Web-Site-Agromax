@@ -2,7 +2,9 @@ import React from 'react';
 import '../App.css';
 import './HeaderMain.css';
 
-function HeaderMain() {
+
+
+const HeaderMain = () => {
   return (
   <>  
     <div className='header-container'>

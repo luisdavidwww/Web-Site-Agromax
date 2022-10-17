@@ -4,8 +4,7 @@ import Copyright from '../containers/Copyright'
 import { Link } from 'react-router-dom';
 import './Footer.css';
 
-
-export function FooterContainer() {
+const FooterContainer = () => {
     return (
         <>
         <Footer>
@@ -13,9 +12,9 @@ export function FooterContainer() {
             <Footer.Row>
                 <Footer.Column>
                     <Footer.Title>Conócenos</Footer.Title>
-                        <Footer.Link> Nosotros </Footer.Link>
-                        <Footer.Link> Misión y Visión </Footer.Link>
-                        <Footer.Link> Filosofía Corporativa </Footer.Link>
+                        <Footer.Link href='/'  > Nosotros </Footer.Link>
+                        <Footer.Link href='/'> Misión y Visión </Footer.Link>
+                        <Footer.Link href='/'> Filosofía Corporativa </Footer.Link>
                         {/*<Footer.Link href="#">Filosofía Corporativa</Footer.Link>*/}
                 </Footer.Column>
                 <Footer.Column>
@@ -111,3 +110,4 @@ export function FooterContainer() {
         
     )
 }
+export default FooterContainer;

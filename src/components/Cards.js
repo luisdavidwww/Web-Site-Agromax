@@ -1,9 +1,9 @@
 import React from 'react';
 import './Cards.css';
 import { Link } from 'react-router-dom';
-import IniciatuProyecto from '../images/IniciatuProyecto.jpg';
-import GarantíadeInversión from '../images/GarantíadeInversión.jpg';
-import ContribuciónSustentable from '../images/ContribuciónSustentable.jpg';
+import IniciatuProyecto from '../images/iniciatuproyecto-1.jpg';
+import Garantia from '../images/garantia-1.jpg';
+import Contribucion from '../images/contribucion-1.jpg';
 
 
 function Cards() {
@@ -19,7 +19,7 @@ function Cards() {
                 <figure className='cards__item__pic-wrap'>
                   <img
                     className='cards__item__img'
-                    alt='Travel Image'
+                    alt='Inicia tu Proyecto'
                     /*{ src={'../' + props.src} }*/
                     src={ IniciatuProyecto }
                   />
@@ -35,9 +35,9 @@ function Cards() {
                 <figure className='cards__item__pic-wrap'>
                   <img
                     className='cards__item__img'
-                    alt='Travel Image'
+                    alt='Garantia de Inversión'
                     /*{ src={'../' + props.src} }*/
-                    src={ GarantíadeInversión }
+                    src={ Garantia }
                   />
                 </figure>
                 <div className='cards__item__info'>
@@ -51,9 +51,9 @@ function Cards() {
                 <figure className='cards__item__pic-wrap'>
                   <img
                     className='cards__item__img'
-                    alt='Travel Image'
+                    alt='Contribución'
                     /*{ src={'../' + props.src} }*/
-                    src={ ContribuciónSustentable }
+                    src={ Contribucion }
                   />
                 </figure>
                 <div className='cards__item__info'>

@@ -19,11 +19,11 @@ export default function Location() {
           </div>
           <div className='sede-wrap-Info'>
             <h1 className='sede-title'> 
-                Sede Numero Uno 
+                AgroMax Calabozo 
             </h1>
             <div className='sede-text'>
                 <p>
-                  Aqui va la dirección y una pequeña descripción de la sede número 1
+                  Calabozo Estado Guárico
                 </p>
             </div>
           </div>
@@ -41,11 +41,11 @@ export default function Location() {
           </div>
           <div className='sede-wrap-Info'>
             <h1 className='sede-title'> 
-                Sede Numero Dos
+                AgroMax Yaritagua
             </h1>
             <div className='sede-text'>
                 <p>
-                    Aqui va la dirección y una pequeña descripción de la sede número 2
+                    Yaritagua Estado Yaracuy
                 </p>
             </div> 
           </div>

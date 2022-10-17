@@ -5,13 +5,7 @@ import { useLocation } from 'react-router-dom';
 import Logo from '../../images/icon/am01.png';
 
 export default function Products() {
-
-  //Hook para colocar al Inicio
-  let location = useLocation();
-  React.useEffect(() => {
-    window.scrollTo({ top: 0 });
-  }, [location]);
-
+  
   return (
     <>
       <div className='contact-us'>
