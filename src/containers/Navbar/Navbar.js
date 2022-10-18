@@ -53,7 +53,7 @@ const Navbar = () => {
     <>
       <nav className='navbar'>
         <a href='/' className='navbar-logo' onClick={closeMobileMenu}>
-          <img src={ AgroMax } alt="AgroMax" style={{height:'66px', width:'170px'}}/>
+          <img src={ AgroMax } alt="AgroMax"  style={{height:'66px', width:'170px'}} />
         </a>
 
 
