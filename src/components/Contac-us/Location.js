@@ -6,7 +6,7 @@ import 'aos/dist/aos.css';
 export default function Location() {
 
   const Sede01 = "images/Locacion/sede01.jpg";
-  const Sede02 = "images/Locacion/Sede02.jpg";
+  const Sede02 = "images/Locacion/sede02.jpg";
 
   React.useEffect(() => { 
     AOS.init({duration:1500});
