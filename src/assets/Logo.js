@@ -8,7 +8,7 @@ const Logo = () => {
   return (
     <>
     <div>
-      <img src={ LogoAgro } alt="AgroMax" className='home-img' />
+      <img src={ LogoAgro } alt="AgroMax"  style={{height:'66px', width:'170px'}} />
     </div>
     </>
   )

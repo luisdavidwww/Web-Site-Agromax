@@ -29,14 +29,6 @@ function App() {
         <Route path='/sign-up' component={SignUp} />
         <Route path='/venta' component={Venta} />
         <Route path='/consulta' component={Consulta} />
-      
-        {/* <Route path='/' exact component={Home} />
-        <Route path='/financing' component={Financing} />
-        <Route path='/products' component={Products} />
-        <Route path='/contact-us' component={ContactUs} />
-        <Route path='/sign-up' component={SignUp} />
-        <Route path='/venta' component={Venta} />
-        <Route path='/consulta' component={Consulta} />*/ }
 
       </Switch>
       <FooterContainer/>
