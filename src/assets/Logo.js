@@ -1,8 +1,10 @@
 import React from 'react'
-//import LogoAgro from '../images/icon/am01.svg';
-import LogoAgro from '../images/icon/agromax.png';
 
 const Logo = () => {
+
+  const LogoAgro = "images/icon/agromax.png";
+
+
   return (
     <>
     <div>
