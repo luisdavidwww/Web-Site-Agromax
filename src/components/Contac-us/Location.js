@@ -1,5 +1,5 @@
 import React from 'react';
-import AOS      from 'aos';
+import AOS from 'aos';
 import './Location.css';
 import 'aos/dist/aos.css'; 
 

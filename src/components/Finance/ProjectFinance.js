@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import AOS      from 'aos';
+import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import './ProjectFinance.css';
 
