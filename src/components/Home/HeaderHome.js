@@ -1,8 +1,8 @@
 import React from 'react';
 import AOS      from 'aos';
-import '../../App.css';
+import 'App.css';
 import 'aos/dist/aos.css'; 
-import './HeaderHome.css';
+import 'components/Home/HeaderHome.css';
 
 
 
@@ -16,7 +16,7 @@ const HeaderHome = () => {
   return (
   <>  
     <div className='header-container'>
-
+      
       <h1 data-aos="zoom-in"  >Los Mejores Productos</h1>
       <p data-aos="zoom-in">Para la Agroindustria</p>
 
