@@ -13,13 +13,13 @@ const Top_header = () => {
                 <div className='content-Top'>
                     <Link to='#' className='Link-Top-Header'>
                         <FontAwesomeIcon icon={faPhone} style={{ marginRight: '7px', top: '20px', right: '20px',}}/>
-                        <span >0251 - 7136150 </span>
+                        <span >0251 - 8149220 </span>
                     </Link>    
                 </div>
                 <div className='content-Top'>
                     <Link to='#' className='Link-Top-Header'>
                         <FontAwesomeIcon icon={faEnvelope} style={{ marginRight: '7px', top: '50px', right: '20px',}}/>
-                        <span>AGROMAX01@GMAIL.COM</span>
+                        <span>info@agromaxgroup.com</span>
                     </Link>   
                 </div>
             </div>            

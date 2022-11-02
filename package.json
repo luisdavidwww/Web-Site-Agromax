@@ -13,11 +13,12 @@
     "aos": "^2.3.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-icons": "^4.4.0",
+    "react-icons": "^4.6.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
     "react-svg": "^15.1.9",
     "react-transition-group": "^4.4.5",
+    "reactjs-popup": "^2.0.5",
     "styled-components": "^5.3.6"
   },
   "homepage": "http://www.agromaxgroup.com/",

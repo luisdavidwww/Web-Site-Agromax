@@ -1,5 +1,6 @@
 import React from 'react';
 import Location from '../components/Contac-us/Location';
+import ContactSection from '../components/Contac-us/ContactSection';
 import AOS      from 'aos';
 import '../App.css';
 import 'aos/dist/aos.css'; 
@@ -18,6 +19,7 @@ export default function ContactUs() {
         </div>
       </div> 
       <Location/>
+      <ContactSection/>
     </>
   );
 }

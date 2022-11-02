@@ -33,7 +33,7 @@ export default function Location() {
             </h1>
             <div className='sede-text'>
                 <p>
-                  Calabozo Estado Guárico
+                  Próximamente Calabozo Estado Guárico
                 </p>
             </div>
           </div>
@@ -56,7 +56,7 @@ export default function Location() {
             </h1>
             <div className='sede-text'>
                 <p>
-                    Yaritagua Estado Yaracuy
+                Próximamente Yaritagua Estado Yaracuy
                 </p>
             </div> 
           </div>
