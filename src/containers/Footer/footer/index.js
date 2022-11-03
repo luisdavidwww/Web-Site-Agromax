@@ -27,6 +27,7 @@ Footer.Linkbtn = function FooterLinkbtn({ children, ...restProps }) {
 };
 
 Footer.Title = function FooterTitle({ children, ...restProps }) {
-  return <Title {...restProps}>{children}</Title>;
+  return (
+    <Link{...restProps}><Title {...restProps}>{children}</Title></Link>)
 };
 

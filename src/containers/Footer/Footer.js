@@ -11,32 +11,31 @@ const FooterContainer = () => {
             <Footer.Wrapper>
             <Footer.Row>
                 <Footer.Column>
-                    <Footer.Title>Conócenos</Footer.Title>
+                    <Footer.Title href='/'>Conócenos</Footer.Title>
                         <Footer.Link href='/'  > Nosotros </Footer.Link>
                         <Footer.Link href='/'> Misión y Visión </Footer.Link>
                         <Footer.Link href='/'> Filosofía Corporativa </Footer.Link>
                         {/*<Footer.Link href="#">Filosofía Corporativa</Footer.Link>*/}
                 </Footer.Column>
                 <Footer.Column>
-                    <Footer.Title>Financiamiento</Footer.Title>
+                    <Footer.Title href='/financing' >Financiamiento</Footer.Title>
                         <Footer.Link href='/financing' > Financia con nosotros </Footer.Link>
                 </Footer.Column>
                 <Footer.Column>
-                    <Footer.Title> Productos </Footer.Title>
-                        <Footer.Link> Agroindustria </Footer.Link>
-                        <Footer.Link> Fertilizantes </Footer.Link>
+                    <Footer.Title href='/products'> Productos </Footer.Title>
+                        <Footer.Link href='/products'> Agroindustria </Footer.Link>
+                        <Footer.Link href='/products'> Fertilizantes </Footer.Link>
                 </Footer.Column>
 
                 <Footer.Column>
                     
-                <Footer.Title>Contacto</Footer.Title>
+                <Footer.Title href='/contact-us' >Contacto</Footer.Title>
                     <Footer.Row>
                         <Footer.Link href='/contact-us'> Nuestras Sedes </Footer.Link>
                         
-                        <Footer.Linkbtn> 
+                        <Footer.Linkbtn href='/contact-us'> 
                                 Contáctanos
-                        </Footer.Linkbtn>
-                       
+                        </Footer.Linkbtn>                   
                     </Footer.Row>  
                 </Footer.Column>
 

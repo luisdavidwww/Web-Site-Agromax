@@ -18,7 +18,9 @@ const ItemStyles = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 50%;
+    border-radius: 0%;
+    top: '50px';
+    right: '20px';
   }
   svg {
     width: 3.5rem;

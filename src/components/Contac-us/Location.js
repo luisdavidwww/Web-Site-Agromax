@@ -1,6 +1,6 @@
 import React from 'react';
 import AOS from 'aos';
-import 'components/Contac-us/Location.css';
+import '../Contac-us/Location.css';
 import 'aos/dist/aos.css'; 
 
 export default function Location() {

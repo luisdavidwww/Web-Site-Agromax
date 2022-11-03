@@ -1,8 +1,8 @@
 import React from 'react';
 import AOS      from 'aos';
-import 'App.css';
+//import 'App.css';
 import 'aos/dist/aos.css'; 
-import 'components/Home/HeaderHome.css';
+import '../Home/HeaderHome.css';
 
 
 

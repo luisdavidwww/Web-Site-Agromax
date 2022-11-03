@@ -37,7 +37,7 @@ const FormStyle = styled.form`
     border-radius: 2px;
     text-decoration-line: none;
     outline: none;
-    border: 2px solid  #fff;
+    border: 2px solid #E2E2E2;
     cursor: pointer;
     margin-bottom: 100px;
     font-family: 'PT Sans', sans-serif;
